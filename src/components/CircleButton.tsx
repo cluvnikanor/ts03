@@ -8,11 +8,10 @@ function CircleButton(props: CircleButtonProps) {
             <button
                 style={{
                     backgroundColor: color,
-                    position: "absolute",
+                    position: "absolute",/*DW*/
                     left: left,
                     top: top,
                 }}
-                // background-color= {props.color}
                 type="button"
                 className={className}
                 data-toggle="tooltip" data-placement="right"
