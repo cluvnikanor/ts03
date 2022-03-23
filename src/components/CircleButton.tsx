@@ -1,27 +1,23 @@
 import './Circle.css'
+import { CircleButtonProps } from './CircleButtonProps';
 
-function CircleButton(props: {
-    className:string,
-    color: string,
-    title: string
-    left: string
-    top: string
-    ;
-}) {
+function CircleButton(props: CircleButtonProps) {
+    const { className, color, left, top, title } = props;
     return (
         <>
             <button
                 style={{
+                    backgroundColor: color,
                     position: "absolute",
-                    left: props.left,
-                    top: props.top,
+                    left: left,
+                    top: top,
                 }}
+                // background-color= {props.color}
                 type="button"
-                className={props.className}
+                className={className}
                 data-toggle="tooltip" data-placement="right"
-                title={props.title}
+                title={title}
             >
-                <img src={props.color} alt="circle" />
             </button>
         </>
     )

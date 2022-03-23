@@ -1,12 +1,12 @@
 import './App.css';
-import Circles from './components/Circles';
+import DrawCircles from './components/DrawCircles';
 // import Shapes from './components/Shapes';
 
 function App() {
   return (
     <div className="App">
       {/* <Shapes /> */}
-      <Circles />
+      <DrawCircles />
     </div>
   );
 }
