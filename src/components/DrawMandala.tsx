@@ -66,7 +66,7 @@ function DrawMandala() {
         <>
             {lines.map(i => (
                 <Line
-                    // key=
+                    key={`${i.x0}${i.y0}${i.x1}${i.y1}`}
                     x0={i.x0}
                     y0={i.y0}
                     x1={i.x1}
@@ -77,7 +77,7 @@ function DrawMandala() {
 
             {circles.map(i => (
                 <CircleButton
-                    // key=
+                    key={i.className}
                     className={i.className}
                     color={i.color}
                     title={i.title}
