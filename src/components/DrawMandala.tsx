@@ -27,21 +27,21 @@ function DrawMandala() {
     }
 
     const circles = [
-        new CircleButtonProps('0', 'yellow', '440px', '320px', 'פרטים',),
-        new CircleButtonProps('1', 'pink', '620px', '320px', 'פרטים',),
-        new CircleButtonProps('2', 'skyblue', '710px', '175px', 'פרטים',),
-        new CircleButtonProps('3', 'skyblue', '710px', '465px', 'פרטים',),
-        new CircleButtonProps('4', 'green', '710px', '0px', 'פרטים',),
-        new CircleButtonProps('5', 'green', '860px', '80px', 'פרטים',),
-        new CircleButtonProps('6', 'green', '710px', '640px', 'פרטים',),
-        new CircleButtonProps('7', 'green', '860px', '560px', 'פרטים',),
-        new CircleButtonProps('8', 'pink', '250px', '320px', 'פרטים',),
-        new CircleButtonProps('9', 'skyblue', '160px', '175px', 'פרטים',),
-        new CircleButtonProps('10', 'skyblue', '160px', '465px', 'פרטים',),
-        new CircleButtonProps('11', 'green', '160px', '0px', 'פרטים',),
-        new CircleButtonProps('12', 'green', '10px', '80px', 'פרטים',),
-        new CircleButtonProps('13', 'green', '160px', '640px', 'פרטים',),
-        new CircleButtonProps('14', 'green', '10px', '560px', 'פרטים',),
+        new CircleButtonProps('0', 'yellow', '440px', '320px', 'מדריכה',),
+        new CircleButtonProps('1', 'pink', '620px', '320px', 'תומכת',),
+        new CircleButtonProps('2', 'skyblue', '710px', '175px', 'תומכת רגשית',),
+        new CircleButtonProps('3', 'skyblue', '710px', '465px', 'תומכת רגשית',),
+        new CircleButtonProps('4', 'green', '710px', '0px', 'תומכת טכנית',),
+        new CircleButtonProps('5', 'green', '860px', '80px', 'תומכת טכנית',),
+        new CircleButtonProps('6', 'green', '710px', '640px', 'תומכת טכנית',),
+        new CircleButtonProps('7', 'green', '860px', '560px', 'תומכת טכנית',),
+        new CircleButtonProps('8', 'pink', '255px', '320px', 'תומכת',),
+        new CircleButtonProps('9', 'skyblue', '165px', '175px', 'תומכת רגשית',),
+        new CircleButtonProps('10', 'skyblue', '165px', '465px', 'תומכת רגשית',),
+        new CircleButtonProps('11', 'green', '165px', '0px', 'תומכת טכנית',),
+        new CircleButtonProps('12', 'green', '15px', '80px', 'תומכת טכנית',),
+        new CircleButtonProps('13', 'green', '165px', '640px', 'תומכת טכנית',),
+        new CircleButtonProps('14', 'green', '15px', '560px', 'תומכת טכנית',),
 
     ]
 
@@ -83,6 +83,7 @@ function DrawMandala() {
                     title={i.title}
                     left={i.left}
                     top={i.top}
+                    isActive={false}
                 />
             ))}
         </>
