@@ -7,8 +7,8 @@ function DrawMandala() {
     const style = {
         className: 'line',
         delay: 0,
-        borderColor: "#ddd",
-        borderWidth: 4,
+        borderColor: "yellow",
+        borderWidth: 9,
         position: "relative",/*DW*/
     };
 
@@ -27,15 +27,39 @@ function DrawMandala() {
     }
 
     const circles = [
-        new CircleButtonProps('A', 'blue', '70px', '70px', 'פרטים',),
-        new CircleButtonProps('B', 'pink', '70px', '370px', 'פרטים',),
-        new CircleButtonProps('C', 'green', '270px', '300px', 'פרטים',),
+        new CircleButtonProps('0', 'yellow', '440px', '320px', 'פרטים',),
+        new CircleButtonProps('1', 'pink', '620px', '320px', 'פרטים',),
+        new CircleButtonProps('2', 'skyblue', '710px', '175px', 'פרטים',),
+        new CircleButtonProps('3', 'skyblue', '710px', '465px', 'פרטים',),
+        new CircleButtonProps('4', 'green', '710px', '0px', 'פרטים',),
+        new CircleButtonProps('5', 'green', '860px', '80px', 'פרטים',),
+        new CircleButtonProps('6', 'green', '710px', '640px', 'פרטים',),
+        new CircleButtonProps('7', 'green', '860px', '560px', 'פרטים',),
+        new CircleButtonProps('8', 'pink', '250px', '320px', 'פרטים',),
+        new CircleButtonProps('9', 'skyblue', '160px', '175px', 'פרטים',),
+        new CircleButtonProps('10', 'skyblue', '160px', '465px', 'פרטים',),
+        new CircleButtonProps('11', 'green', '160px', '0px', 'פרטים',),
+        new CircleButtonProps('12', 'green', '10px', '80px', 'פרטים',),
+        new CircleButtonProps('13', 'green', '160px', '640px', 'פרטים',),
+        new CircleButtonProps('14', 'green', '10px', '560px', 'פרטים',),
+
     ]
 
     const lines = [
         drawLine(circles[0], circles[1], 64),
-        drawLine(circles[2], circles[0], 64),
         drawLine(circles[1], circles[2], 64),
+        drawLine(circles[1], circles[3], 64),
+        drawLine(circles[2], circles[4], 64),
+        drawLine(circles[2], circles[5], 64),
+        drawLine(circles[3], circles[6], 64),
+        drawLine(circles[3], circles[7], 64),        
+        drawLine(circles[0], circles[8], 64),
+        drawLine(circles[8], circles[9], 64),
+        drawLine(circles[8], circles[10], 64),
+        drawLine(circles[9], circles[11], 64),
+        drawLine(circles[9], circles[12], 64),
+        drawLine(circles[10], circles[13], 64),
+        drawLine(circles[10], circles[14], 64),
     ]
 
     return (
