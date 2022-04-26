@@ -1,7 +1,6 @@
 button {
   height: 128px;
   width: 128px;
-  border: none;
   padding: 0 !important;
   border-radius: 50% !important;
   position: absolute !important;/*DW*/

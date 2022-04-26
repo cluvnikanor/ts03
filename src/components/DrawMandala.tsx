@@ -27,22 +27,21 @@ function DrawMandala() {
     }
 
     const circles = [
-        new CircleButtonProps('0', 'yellow', '440px', '320px', 'מדריכה',),
-        new CircleButtonProps('1', 'pink', '620px', '320px', 'תומכת',),
-        new CircleButtonProps('2', 'skyblue', '710px', '175px', 'תומכת רגשית',),
-        new CircleButtonProps('3', 'skyblue', '710px', '465px', 'תומכת רגשית',),
-        new CircleButtonProps('4', 'green', '710px', '0px', 'תומכת טכנית',),
-        new CircleButtonProps('5', 'green', '860px', '80px', 'תומכת טכנית',),
-        new CircleButtonProps('6', 'green', '710px', '640px', 'תומכת טכנית',),
-        new CircleButtonProps('7', 'green', '860px', '560px', 'תומכת טכנית',),
-        new CircleButtonProps('8', 'pink', '255px', '320px', 'תומכת',),
-        new CircleButtonProps('9', 'skyblue', '165px', '175px', 'תומכת רגשית',),
-        new CircleButtonProps('10', 'skyblue', '165px', '465px', 'תומכת רגשית',),
-        new CircleButtonProps('11', 'green', '165px', '0px', 'תומכת טכנית',),
-        new CircleButtonProps('12', 'green', '15px', '80px', 'תומכת טכנית',),
-        new CircleButtonProps('13', 'green', '165px', '640px', 'תומכת טכנית',),
-        new CircleButtonProps('14', 'green', '15px', '560px', 'תומכת טכנית',),
-
+        new CircleButtonProps('0', 'yellow', '480px', '320px', 'מדריכה',),
+        new CircleButtonProps('1', 'pink', '660px', '320px', 'תומכת',),
+        new CircleButtonProps('2', 'skyblue', '750px', '175px', 'תומכת רגשית',),
+        new CircleButtonProps('3', 'skyblue', '750px', '465px', 'תומכת רגשית',),
+        new CircleButtonProps('4', 'green', '750px', '0px', 'תומכת טכנית',),
+        new CircleButtonProps('5', 'green', '900px', '80px', 'תומכת טכנית',),
+        new CircleButtonProps('6', 'green', '750px', '640px', 'תומכת טכנית',),
+        new CircleButtonProps('7', 'green', '900px', '560px', 'תומכת טכנית',),
+        new CircleButtonProps('8', 'pink', '295px', '320px', 'תומכת',),
+        new CircleButtonProps('9', 'skyblue', '205px', '175px', 'תומכת רגשית',),
+        new CircleButtonProps('10', 'skyblue', '205px', '465px', 'תומכת רגשית',),
+        new CircleButtonProps('11', 'green', '205px', '0px', 'תומכת טכנית',),
+        new CircleButtonProps('12', 'green', '55px', '80px', 'תומכת טכנית',),
+        new CircleButtonProps('13', 'green', '205px', '640px', 'תומכת טכנית',),
+        new CircleButtonProps('14', 'green', '55px', '560px', 'תומכת טכנית',),
     ]
 
     const lines = [

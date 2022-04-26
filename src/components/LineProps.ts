@@ -1,8 +1,8 @@
 export class LineProps {
-    x0 = 0
-    y0 = 0
-    x1 = 0
-    y1 = 0
+    x0 = 0;
+    y0 = 0;
+    x1 = 0;
+    y1 = 0;
 
     constructor(
         x0: number,
